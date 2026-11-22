@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Артефакты распаковки и дистрибутивы 1С — в репозиторий не кладём
+*.efd
+*.cf
+*.cfu
+*.dt
+*.erf
+*.epf
+/out/
+/tmp/
+
+# Мусор IDE и ОС
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
